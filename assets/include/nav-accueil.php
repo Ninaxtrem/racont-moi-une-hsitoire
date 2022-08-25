@@ -43,8 +43,8 @@
             <img src="assets/img/lg.png" alt="" width="90" height="70">
         </a>
         <div class="nav">
-            <a href="inscriptionfront.php">Inscription</a>
-            <a href="connectionfront.php">Connection</a>
+            <a href="inscription.php">Inscription</a>
+            <a href="connection.php">Connection</a>
         </div>
     </div>
      <!-- fin nav-->

@@ -111,6 +111,30 @@ body{
      padding-top: 60px;
    }
  /*FIN nav */
+/* CONTENU */
+
+.titre{
+    color: #9196F2;
+    font-family: 'alamain';
+    src: url('../font/alamain1.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+    .notrebut {
+      margin-top: 10%;
+      margin-bottom: 10%;
+  
+  }
+  
+  .presentation {
+      margin-top: 10%;
+      margin-bottom: 10%;
+  
+  }
+  /* fin contenu */
+  
+
 /*foother*/
 
 /*FIN footheer */
