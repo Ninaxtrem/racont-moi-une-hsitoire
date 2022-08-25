@@ -4,15 +4,12 @@
  $prenoms = $_POST['prenoms'];
  $pseudo = $_POST['pseudo'];
  $mail = $_POST['mail'];
- $mdp = $_POST['mdp'];
+ $mdp2 = $_POST['mdp'];
  
 
- //if(!preg_match('/^(?=.\d)(?=.[A-Za-z])[0-9A-Za-z!@#$%]{8,12}$/', $mdp)) {
-    //todo la regex esst pas bonne 
-   // header("location:inscriptionfront.php?message=error");
- //}
 
-$mdp = password_hash ($mdp, PASSWORD_DEFAULT);
+
+$mdp = password_hash ($mdp2, PASSWORD_DEFAULT);
   
 //gere le pseudo
 $sql = "SELECT * FROM utilisateurs WHERE pseudo = :pseudo";
@@ -31,25 +28,41 @@ if($countPseudo == 0){
     $countmail = $requete1->rowCount();
 
     if($countmail == 0){
+        
         // potentiellement mettre la condition mdp 
+        if(!preg_match('@^(?=.{10,}$)(?=(?:.*[A-Z]){1})(?=.*[a-z])(?=(?:.*[0-9]){1}).*@', $mdp2)) {
+            header("location:inscriptionfront.php?message=error");
+        }
+        else {
 
+            $sql = "INSERT INTO  utilisateurs (nom, prenoms, pseudo, mail, mdp) VALUES (:nom, :prenoms, :pseudo, :mail, :mdp)";
+            $requete= $bdd->prepare($sql);
+            $requete->execute(array(
+                ':nom' => $nom,
+                ':prenoms' => $prenoms,
+                ':pseudo'=> $pseudo,
+                ':mail'=> $mail,
+                ':mdp'=> $mdp,
+            ));    
+    
+            header("location:connectionfront.php?message=sucess");
+    
+        }
+            //todo la regex esst pas bonne 
+       
 
-
-        $sql = "INSERT INTO  utilisateurs (nom, prenoms, pseudo, mail, mdp) VALUES (;nom, ;prenoms, :pseudo, :mail, :mdp)";
-        $requete= $bdd->prepare($sql);
-        $requete->execute(array(
-            ':pseudo'=> $pseudo,
-            ':mail'=> $mail,
-            ':mdp'=> $mdp,
-        ));    
-
-        header("location:connectionfront.php?message=sucess");
 
     }else{
-        header("location:inscriptionfront.php?message=error3");
+     header("location:inscriptionfront.php?message=error3");
     }
-}else{
-    header("location:inscriptionfront.php?message=error2");
-}
+    
+    }
+    else{
+    header("location:inscriptionfront.php?message=error2");}
+    // }
+//     else{
+//     header("location:inscriptionfront.php?message=error");
+// }
+
 
 ?>

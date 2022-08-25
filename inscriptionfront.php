@@ -21,18 +21,19 @@
             <?php 
      if(isset($_GET['message'])){
       if($_GET['message'] == "error3") {
-      echo"<div class='title'>mail deja utiliser</div>";
+      echo"<div class='title'>Le compte existe deja</div>";
       }
     }
       if(isset($_GET['message'])){
         if($_GET['message'] == "error2") {
-        echo"<div class='title'>Pseudo utilisé</div> ";
+        // echo"<div class='title'>Pseudo utilisé</div> ";
+        echo"<div class='title'>Pseudo utilise</div> ";
         }
       }
    
       if(isset($_GET['message'])){
         if($_GET['message'] == "error") {
-        echo"<div class='title'>le mot de passe n'est pas valide</div>";
+        echo"<div class='title'>mdp ne respecte pas</div>";
         }
       }
       
