@@ -4,7 +4,6 @@ body{
     padding: 0;
 }
 
-
 /* slide */ 
 
 #slider,
@@ -75,66 +74,68 @@ body{
   margin-right: 30px;
 }
 
-/*FIN slide */
-/*nav */
+/*FIN CAROUSELLE */
+/*  NAV */
 .nav{
-    margin-left: 90%;
- }
- #navbar {
-     overflow: hidden;
-     background-color: #130C40;
-   }
-   
-   #navbar a {
-     float: left;
-     display: block;
-     color: #9196F2;
-     text-align: center;
-     padding: 14px;
-     text-decoration: none;  color: #9196F2;
-     font-family: 'alamain';
-     src: url('../font/alamain1.ttf');
-     font-weight: normal;
-     font-style: normal;
-   }
-   
-   .content {
-     padding: 16px;
-   }
- 
-   .sticky {
-     position: fixed;
-     top: 0;
-     width: 100%;
-   }
-     .sticky + .content {
-     padding-top: 60px;
-   }
- /*FIN nav */
-/* CONTENU */
-
-.titre{
+   margin-left: 90%;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #130C40;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
     color: #9196F2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;  color: #9196F2;
     font-family: 'alamain';
     src: url('../font/alamain1.ttf');
     font-weight: normal;
     font-style: normal;
   }
   
-    .notrebut {
-      margin-top: 10%;
-      margin-bottom: 10%;
-  
+  .content {
+    padding: 16px;
   }
-  
-  .presentation {
-      margin-top: 10%;
-      margin-bottom: 10%;
-  
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
-  /* fin contenu */
-  
+    .sticky + .content {
+    padding-top: 60px;
+  }
 
-/*foother*/
+  /* fin Nav */
 
-/*FIN footheer */
+/* CONTENU */
+
+.titre{
+  color: #9196F2;
+  font-family: 'alamain';
+  src: url('../font/alamain1.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+  .notrebut {
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.presentation {
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+/* fin contenu */
+
+
+
+
+

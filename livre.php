@@ -14,7 +14,8 @@
 </head>
 
 <body>
-
+<?php include("bdd.php")
+?>
     <!--Nav-->
     <div id="navbar">
         <a href="./index.php">
@@ -31,7 +32,8 @@
 
     <h1> TITRE
     </h1>
-  
+    <?php
+    echo $nom["nom"];?>
     <!-- fin titre livre-->
     <!--lecteur-->
     <div class="contain">
@@ -106,7 +108,25 @@
 
 
 
-        <?php include("assets/include/foother.php") ?>
+        <!-- foother-->
+        <footer class="bg-dark text-center text-white">
+            <h3 class="text-center"> Les reseaux sociaux</h3>
+            <div class="p-2 bd-highlight"> <a href="https://www.facebook.com/RoseEternails" class="text-white">
+                    <h3><i class="fa-brands fa-facebook"></i></h3>
+                </a></div>
+            <div class="p-2 bd-highlight"><a
+                    href="https://api.whatsapp.com/send?phone=33634240457&app=facebook&entry_point=page_cta&fbclid=IwAR3XEy4tffTwDwE7AQD6TSYrn5Dyy2B0QXSlIbuMtgO-knqcNUckE9x4ps0"
+                    class="text-white">
+                    <h2><i class="fa-brands fa-whatsapp"></i></h2>
+                </a></div>
+
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2022 Copyright: by Nina
+                <a class="text-white">Raconte moi une Histoire</a>
+            </div>
+
+        </footer>
+        <!-- fin foother-->
 
 
 

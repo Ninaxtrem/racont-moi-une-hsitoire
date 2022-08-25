@@ -14,10 +14,45 @@
 </head>
 
 <body>
-<?php include("assets/include/nav-accueil.php") ?>
+    <!-- slide -->
+    <div class="wrap">
+        <div id="arrow-left" class="arrow"></div>
+        <div id="slider">
+            <div class="slide slide1">
+                <div class="slide-content">
+                    <span></span>
+                </div>
+            </div>
+            <div class="slide slide2">
+                <div class="slide-content">
+                    <span></span>
+                </div>
+            </div>
+            <div class="slide slide3">
+                <div class="slide-content">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div id="arrow-right" class="arrow"></div>
+    </div>
 
- <!-- Notre but -->
- <div class="notrebut">
+    <!-- fin slide -->
+    <!--Nav-->
+    <div id="navbar">
+        <a href="./index.php">
+            <img src="assets/img/lg.png" alt="" width="90" height="70">
+        </a>
+        <div class="nav">
+            <a href="inscriptionfront.php">Inscription</a>
+            <a href="connectionfront.php">Connection</a>
+        </div>
+    </div>
+    <!-- fin nav -->
+
+
+    <!-- Notre but -->
+    <div class="notrebut">
         <div class="container-fluid">
             <div class="row justify-content-end">
                 <div class="d-flex flex-wrap-reverse">
@@ -78,10 +113,33 @@
         </div>
     </div>
     <!-- fin presentation-->
+    <!-- foother-->
+    <footer class="bg-dark text-center text-white">
+        <h2 class="text-center"> Les reseaux sociaux</h2>
+        <div class="p-2 bd-highlight"> <a href="https://www.facebook.com/RoseEternails" class="text-white">
+                <h2><i class="fa-brands fa-facebook"></i></h2>
+            </a></div>
+        <div class="p-2 bd-highlight"><a
+                href="https://api.whatsapp.com/send?phone=33634240457&app=facebook&entry_point=page_cta&fbclid=IwAR3XEy4tffTwDwE7AQD6TSYrn5Dyy2B0QXSlIbuMtgO-knqcNUckE9x4ps0"
+                class="text-white">
+                <h2><i class="fa-brands fa-whatsapp"></i></h2>
+            </a></div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright: by Nina
+            <a class="text-white">Raconte moi une Histoire</a>
+        </div>
+
+    </footer>
+    <!-- fin foother-->
 
 
-<?php include("assets/include/foother.php") ?>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
@@ -90,4 +148,5 @@
     <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
     <script src="assets/js/java.js"></script>
 </body>
+
 </html>

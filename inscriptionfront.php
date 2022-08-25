@@ -32,7 +32,7 @@
    
       if(isset($_GET['message'])){
         if($_GET['message'] == "error") {
-        echo"<div class='title'>le mot de passe n'est pas identique</div>";
+        echo"<div class='title'>le mot de passe n'est pas valide</div>";
         }
       }
       
