@@ -5,48 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/acparent.css">
     <title>Racont moi une Histoire</title>
 </head>
 
 <body>
- <!-- slide -->
- <div class="carrousel">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="assets/img/1.jpg" class="d-block w-100 h-10 !important" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="assets/img/2.jpg" class="d-block w-100 h-10 !important" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="assets/img/3.jpg" class="d-block w-100 h-10 !important" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+      <!-- slide -->
+      <div class="wrap">
+  <div id="arrow-left" class="arrow"></div>
+  <div id="slider">
+    <div class="slide slide1">
+      <div class="slide-content">
+        <span></span>
+      </div>
     </div>
+    <div class="slide slide2">
+      <div class="slide-content">
+        <span></span>
+      </div>
     </div>
+    <div class="slide slide3">
+      <div class="slide-content">
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <div id="arrow-right" class="arrow"></div>
+</div>
 
     <!-- fin slide -->
     <!--Nav-->
@@ -60,6 +51,52 @@
     </div>
     <!-- fin nav -->
 
+    <!--slide categories-->
+    
+    <h3>5ans</h3>
+    <div class="slider">
+    <div class="img-div div1"></div>
+    <div class="img-div div2"></div>
+    <div class="img-div div3"></div>
+    <div class="img-div div4"></div>
+    <div class="img-div div5"></div>
+    <div class="img-div div6"></div>
+    <div class="img-div div7"></div>
+    <div class="img-div div8"></div>
+    <div class="img-div div9"></div>
+    <div class="img-div div10"></div>
+    <div class="img-div div11"></div>
+    <div class="img-div div12"></div>
+    <div class="img-div div13"></div>
+    <div class="img-div div14"></div>
+  </div>
+
+  <div class="photo">
+    <img class="image" src="assets/img/preview-removebg-preview.png" heigth=300px width=100%></img>
+  </div>
+<!--fin slide categories-->
+  <!--slide categories-->
+  <h3>6 ans</h3>
+  <div class="slider2">
+    <div class="img-div div1"></div>
+    <div class="img-div div2"></div>
+    <div class="img-div div3"></div>
+    <div class="img-div div4"></div>
+    <div class="img-div div5"></div>
+    <div class="img-div div6"></div>
+    <div class="img-div div7"></div>
+    <div class="img-div div8"></div>
+    <div class="img-div div9"></div>
+    <div class="img-div div10"></div>
+    <div class="img-div div11"></div>
+    <div class="img-div div12"></div>
+    <div class="img-div div13"></div>
+    <div class="img-div div14"></div>
+  </div>
+
+  <div class="photo">
+    <img class="image" src="assets/img/preview-removebg-preview.png" heigth=300px width=100%></img>
+  </div>
 
 
     <!-- foother-->
@@ -81,14 +118,22 @@
 
     </footer>
     <!-- fin foother-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
-    <script src="assets/js/java.js"></script>
+
+
+
+
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.3.2.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+ 
+    <script src="assets/js/cat.js"></script>
 </body>
 
 </html>

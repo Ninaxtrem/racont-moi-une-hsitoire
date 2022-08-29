@@ -3,9 +3,9 @@ const showAlert = document.getElementById("showAlert");
 const tbody = document.querySelector("tbody");
 
 
-// Fetch All Users Ajax Request
+// Récupérer la requête Ajax de tous les utilisateurs
 const fetchAllUsers = async () => {
-  const data = await fetch("assets/php/crud_commande.php?read=1", 
+  const data = await fetch("assets/php/crud.php?read=1", 
   {
     method: "GET",
   });
@@ -15,7 +15,7 @@ const fetchAllUsers = async () => {
 fetchAllUsers();
 
 
- // Update User Ajax Request
+ //Mettre à jour la demande Ajax de l'utilisateur
 updateForm.addEventListener("submit", async (e) => {
   e.preventDefault();
 
@@ -45,7 +45,7 @@ updateForm.addEventListener("submit", async (e) => {
   }
 });
 
-// Delete User Ajax Request
+// Supprimer la demande Ajax de l'utilisateur
 tbody.addEventListener("click", (e) => {
   if (e.target && e.target.matches("a.deleteLink")) {
     e.preventDefault();

@@ -5,18 +5,18 @@
   $util = new Util;
 
 
-  // Handle Fetch All Users Ajax Request
+  // Gérer la requête Ajax de récupération de tous les utilisateurs
   if (isset($_GET['read'])) {
-    $users = $db->read();
+    $utilisateur = $db->read();
     $output = '';
-    if ($users) {
-      foreach ($users as $row)  {
+    if ($utilisateur) {
+      foreach ($utilisateur as $row)  {
         $output .= '<tr>
 
                       <td>' . $row['nom'] . '</td>
                       <td>' . $row['prenoms'] . '</td>
+                      <td>' . $row['pseudo'] . '</td>
                       <td>' . $row['mail'] . '</td>
-                      <td>' . $row[''] . '</td>
                       <td>' . $row[''] . '</td>
                       <td>' . $row[''] . '</td>
                       <td>
@@ -30,32 +30,33 @@
       echo $output;
     } else {
       echo '<tr>
-              <td colspan="6">No Users Found in the Database!</td>
+              <td colspan="6">No utilisateur Found in the Database!</td>
             </tr>';
     }
   }
- 
-    // Handle Update User Ajax Request
+    // Gérer la demande de mise à jour de l'utilisateur Ajax
     if (isset($_POST['update'])) {
       $id = $util->testInput($_POST['id']);
+      $nom = $util->testInput($_POST['nom']);
+      $prenoms = $util->testInput($_POST['prenoms']);
       $pseudo = $util->testInput($_POST['pseudo']);
       $mail = $util->testInput($_POST['mail']);
-      $password = $util->testInput($_POST['mdp']);
-      $role = $util->testInput($_POST['role']);
+  
+     
   
   
-      if ($db->update($id, $pseudo, $mail, $password, $role)) {
-        echo $util->showMessage('success', 'User updated successfully!');
+      if ($db->update($id, $nom, $prenoms, $pseudo, $mail )) {
+        echo $util->showMessage('success', 'utilisateur updated successfully!');
       } else {
         echo $util->showMessage('danger', 'Something went wrong!');
       }
     }
   
-    // Handle Delete User Ajax Request
+    // Gérer la demande de suppression d'utilisateur Ajax
     if (isset($_GET['delete'])) {
       $id = $_GET['id'];
       if ($db->delete($id)) {
-        echo $util->showMessage('info', 'User deleted successfully!');
+        echo $util->showMessage('info', 'utilisateur deleted successfully!');
       } else {
         echo $util->showMessage('danger', 'Something went wrong!');
       }

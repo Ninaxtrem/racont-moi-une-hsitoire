@@ -24,7 +24,7 @@ if ($count == 1 ){
             $_SESSION['id'] = $resultat['id'];
             $_SESSION['pseudo'] = $resultat['pseudo'];
 
-            header("location:Livre.php");
+            header("location:accueilcoparent.php");
             
         } else{
             
@@ -33,5 +33,5 @@ if ($count == 1 ){
 
 }
 else{
-    header("location:inscriptionfront.php?message=error");
+    header("location:connectionfront.php?message=error");
 }

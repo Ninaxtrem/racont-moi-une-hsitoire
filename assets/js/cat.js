@@ -1,0 +1,39 @@
+$(document).ready(function () {
+  $('.slide').slick({
+      "setting-name": "setting-value"
+  });
+});
+
+$('.multiple-items').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+
+$('.slider').slick({
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 3,
+  autoplay: true,
+autoplaySpeed: 8000,
+});
+
+$(document).ready(function () {
+  $('.slide2').slick({
+      "setting-name": "setting-value"
+  });
+});
+
+$('.multiple-items').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+
+$('.slider2').slick({
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 3,
+  autoplay: false,
+
+});

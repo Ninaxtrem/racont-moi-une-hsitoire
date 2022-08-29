@@ -1,5 +1,6 @@
 <?php 
  include "bdd.php";
+ 
  $nom = $_POST['nom'];
  $prenoms = $_POST['prenoms'];
  $pseudo = $_POST['pseudo'];

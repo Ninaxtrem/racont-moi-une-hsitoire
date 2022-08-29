@@ -44,8 +44,8 @@
               <tr>
                 <th>Nom</th>
                 <th>Prenom</th>
+                <th>Pseudo</th>
                 <th>Email</th>
-                <th></th>
                 <th></th>
                 <th></th>
                 <th>Action</th>
