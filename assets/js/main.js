@@ -5,7 +5,7 @@ const tbody = document.querySelector("tbody");
 
 // Récupérer la requête Ajax de tous les utilisateurs
 const fetchAllUsers = async () => {
-  const data = await fetch("assets/php/crud.php?read=1", 
+  const data = await fetch("action.php?read=1", 
   {
     method: "GET",
   });
@@ -30,7 +30,7 @@ updateForm.addEventListener("submit", async (e) => {
   } else {
     document.getElementById("edit-user-btn").value = "Please Wait...";
 
-    const data = await fetch("assets/php/action.php", {
+    const data = await fetch("crud.php", {
       method: "POST",
       body: formData,
     });
@@ -55,7 +55,7 @@ tbody.addEventListener("click", (e) => {
 });
 
 const deleteUser = async (id) => {
-  const data = await fetch(`assets/php/action.php?delete=1&id=${id}`, {
+  const data = await fetch(`crud.php?delete=1&id=${id}`, {
     method: "GET",
   });
   const response = await data.text();

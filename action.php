@@ -1,8 +1,9 @@
 <?php
 
+include "traitement.php";
 
-  $db = new Database;
-  $util = new Util;
+  $db = new Database();
+
 
 
   // Gérer la requête Ajax de récupération de tous les utilisateurs
@@ -17,12 +18,9 @@
                       <td>' . $row['prenoms'] . '</td>
                       <td>' . $row['pseudo'] . '</td>
                       <td>' . $row['mail'] . '</td>
-                      <td>' . $row[''] . '</td>
-                      <td>' . $row[''] . '</td>
                       <td>
-                      <a href="#" id="' . $row['id_commande'] . '" class="btn btn-success btn-sm rounded-pill py-0 editLink" data-toggle="modal" data-target="#editUserModal">Edit</a>
-                      <a href="#" id="' . $row['id_commande'] . '" class="btn btn-danger btn-sm rounded-pill py-0 deleteLink" data-toggle="modal" data-target="#deleteUserModal">Delete</a>
-           
+                      <a href="#" id="' . $row['id'] . '" class="btn btn-success btn-sm rounded-pill py-0 editLink" data-toggle="modal" data-target="#editUserModal">Modifier</a>
+                      <a href="#" id="' . $row['id'] . '" class="btn btn-danger btn-sm rounded-pill py-0 deleteLink" data-toggle="modal" data-target="#deleteUserModal">Supprimer</a>
                     </td>
                 
                     </tr>';

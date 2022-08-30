@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
 
-    <link rel="stylesheet" href="./assets/css/acparent.css">
+    <link rel="stylesheet" href="assets/css/acparent.css">
     <title>Racont moi une Histoire</title>
 </head>
 
@@ -99,6 +100,45 @@
   </div>
 
 
+
+
+
+
+
+  <!-- enregistreur -->
+  <div class="lecteur">
+    <div class="container-fluid">
+      <div class="row justify-content-end">
+        <div class="d-flex flex-wrap-reverse">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <img src="assets/img/micro.png" class="img-fluid" alt="Responsive image">
+          </div>
+          <div class="col align-self-center">
+            <div class="mx-auto  w-75">
+              <p>
+                <h2 class="text-center"> Enregistrement</h2>
+                Prothésite ongulaires pouvant vous accueillir dans son salon privé (mon domicile 9 rue du Britais 53000
+                Laval) ou chez vous.. Je vous propose de decouvrir mes services et mon univers sur Laval et
+                ses
+                alentours dans le 53.
+                Je me deplace à domicile.
+
+                Pour les prises de rendez vous merci de vous reporter au calendrier. Je réponds rapidement aux messages.
+
+                Le calendrier sera modifié toute les semaines de chaque mois en fontion de mon activité professionnelle
+                principal.
+
+                En cas d'annulation, pas de panique, merci de me contacter 24 à 48h avant votre rendez vous.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- fin enregistreur -->
     <!-- foother-->
     <footer class="bg-dark text-center text-white">
         <h2 class="text-center"> Les reseaux sociaux</h2>

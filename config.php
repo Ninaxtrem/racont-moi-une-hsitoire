@@ -6,7 +6,9 @@
     private const DBPASS = '';
     private const DBNAME = 'raconte_moi_une_histoire';
 
-    private $dsn = 'mysql:host=localhost' . self::DBHOST . ';dbname=raconte_moi_une_histoire' . self::DBNAME . '';
+    private $dsn = 'mysql:host=' . self::DBHOST . ';dbname=' . self::DBNAME . ';user='.self::DBUSER.';password='.self::DBPASS.';port=3306';
+
+    
 
     protected $conn = null;
 
