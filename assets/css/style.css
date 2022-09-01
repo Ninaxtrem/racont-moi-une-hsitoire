@@ -135,10 +135,24 @@ body{
 }
 /* fin contenu */
 
-.lecteur {
-  margin-top: 10%;
-  margin-bottom: 10%;
+.parallax {
+  /* Image utilisée titre */
+  background-image:url("../img/6-enfants_transparent.png");
 
+  
+  /* Définissez une hauteur */
+  height:500px;
+  
+  /* Créez le parallax effect */
+  background-attachment:fixed;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  }
+
+.h1{
+  color: #9196F2 !important;
+  font-size: 6.5rem !important;
+  text-align: center !important;
+  
 }
-
-

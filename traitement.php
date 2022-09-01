@@ -4,14 +4,14 @@
 
   class Database extends Config {
  
-    public function insert($nom, $prenoms, $pseudo, $mail, ) {
+    public function insert($nom, $prenoms, $pseudo, ) {
       $sql = 'INSERT INTO utilisateurs (nom, prenoms, pseudo, mail,) VALUES (:nom, :prenoms, :pseudo, :mail, )';
       $stmt = $this->conn->prepare($sql);
       $stmt->execute([
         'nom' => $nom,
         'prenoms' => $prenoms,
         'pseudo' => $pseudo,
-        'mail' => $mail,
+       
         
       ]);
       return true;
@@ -33,14 +33,14 @@
       return $result;
     }
 
-    public function update($id, $nom, $prenoms, $pseudo, $mail, ) {
+    public function update($id, $nom, $prenoms, $pseudo, ) {
       $sql = 'UPDATE utilisateurs SET nom = :nom, prenoms = :prenoms, pseudo = :pseudo, mail = :mail, mdp = :mdp WHERE id = :id';
       $stmt = $this->conn->prepare($sql);
       $stmt->execute([
         'nom' => $nom,
         'prenoms' => $prenoms,
         'pseudo' => $pseudo,
-        'mail' => $mail,
+        
         
         'id' => $id,
       ]);

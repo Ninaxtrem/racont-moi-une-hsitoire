@@ -1,268 +1,281 @@
-body {
-  background-color: #d81b1b;
+body{
+  background-color: #f2f2f2;
   margin: 0;
   padding: 0;
 }
 h3{
-  color: #9196F2;
+color: #9196F2;
 }
 /*  NAV */
 .nav{
-    margin-left: 90%;
+  margin-left: 90%;
+}
+#navbar {
+   overflow: hidden;
+   background-color: #130C40;
  }
- #navbar {
-     overflow: hidden;
-     background-color: #130C40;
-   }
-   
-   #navbar a {
-     float: left;
-     display: block;
-     color: #9196F2;
-     text-align: center;
-     padding: 14px;
-     text-decoration: none;  color: #9196F2;
-     font-family: 'alamain';
-     src: url('../font/alamain1.ttf');
-     font-weight: normal;
-     font-style: normal;
-   }
-   
-   .content {
-     padding: 16px;
-   }
  
-   .sticky {
-     position: fixed;
-     top: 0;
-     width: 100%;
-   }
-     .sticky + .content {
-     padding-top: 60px;
-   }
+ #navbar a {
+   float: left;
+   display: block;
+   color: #9196F2;
+   text-align: center;
+   padding: 14px;
+   text-decoration: none;  color: #9196F2;
+   font-family: 'alamain';
+   src: url('../font/alamain1.ttf');
+   font-weight: normal;
+   font-style: normal;
+ }
  
-   /* fin Nav */
+ .content {
+   padding: 16px;
+ }
+
+ .sticky {
+   position: fixed;
+   top: 0;
+   width: 100%;
+ }
+   .sticky + .content {
+   padding-top: 60px;
+ }
+
+ /* fin Nav */
 
 /** slide**/
 .slider {
-  width: 80%;
-  margin: 0 auto;
+width: 80%;
+margin: 0 auto;
 }
 
 .img-div {
-  width: 300px;
-  height: 300px;
-  margin: 0 15px;
+width: 300px;
+height: 300px;
+margin: 0 15px;
 }
 
 .div1 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div2 {
-  background: url("../img/2.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/2.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div3 {
-  background: url("../img/3.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/3.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div4 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
 }
 .div5 {
-  background: url("../img/2.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/2.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div6 {
-  background: url("../img/3.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/3.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div7 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div8 {
-  background: url("../img/2.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/2.jpg") center no-repeat;
+background-size: cover;
 }
 .div9 {
-  background: url("../img/3.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/3.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div10 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div11 {
-  background: url("../img/2.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/2.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div12 {
-  background: url("../img/3.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/3.jpg") center no-repeat;
+background-size: cover;
 }
 .div13 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div14 {
-  background: url("../img/2.jpeg") center no-repeat;
-  background-size: cover;
+background: url("../img/2.jpeg") center no-repeat;
+background-size: cover;
 }
 
 @media screen and (min-width:324px) and (max-width:1024px) {
 
-  .slider {
+.slider {
 
-      display: none;
-  }
+    display: none;
+}
 }
 
 .photo {
 
-  display: none;
- 
+display: none;
+
 }
 
 @media screen and (min-width:324px) and (max-width:1024px) {
 
-  .slider {
+.slider {
 
-      display: none;
-  }
+    display: none;
+}
 
-  .photo {
+.photo {
 
-      display: flex;
-      height: 300px;
-      width: 100%;
-  }
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
 }
 
 .slick-next{
-  color:antiquewhite;
+color: black;
 }
 /** fin slid**/
 /** slide**/
 .slider2 {
-  width: 80%;
-  margin: 0 auto;
+width: 80%;
+margin: 0 auto;
 }
 
 .img-div {
-  width: 300px;
-  height: 300px;
-  margin: 0 15px;
+width: 300px;
+height: 300px;
+margin: 0 15px;
 }
 
 .div1 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div2 {
-  background: url("../img/2.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/2.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div3 {
-  background: url("../img/3.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/3.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div4 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
 }
 .div5 {
-  background: url("../img/2.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/2.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div6 {
-  background: url("../img/3.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/3.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div7 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div8 {
-  background: url("../img/2.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/2.jpg") center no-repeat;
+background-size: cover;
 }
 .div9 {
-  background: url("../img/3.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/3.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div10 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div11 {
-  background: url("../img/2.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/2.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div12 {
-  background: url("../img/3.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/3.jpg") center no-repeat;
+background-size: cover;
 }
 .div13 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
 }
 
 .div14 {
-  background: url("../img/2.jpeg") center no-repeat;
-  background-size: cover;
+background: url("../img/2.jpeg") center no-repeat;
+background-size: cover;
 }
 
 @media screen and (min-width:324px) and (max-width:1024px) {
 
-  .slider {
+.slider {
 
-      display: none;
-  }
+    display: none;
+}
 }
 
 .photo {
 
-  display: none;
- 
+display: none;
+
 }
 
 @media screen and (min-width:324px) and (max-width:1024px) {
 
-  .slider {
+.slider {
 
-      display: none;
-  }
+    display: none;
+}
 
-  .photo {
+.photo {
 
-      display: flex;
-      height: 300px;
-      width: 100%;
-  }
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
 }
 
 .slick-next{
-  color:antiquewhite;
+color: black;
 }
+
+
+  .lecteur {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.arrow {
+color: black;
+}
+

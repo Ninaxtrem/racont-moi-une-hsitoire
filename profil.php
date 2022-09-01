@@ -1,3 +1,5 @@
+<?php session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,8 +45,9 @@
         
         
         <div class="profile-button">
-          <button>Changer</button>
+          <button>Decconection</button>
         </div>
+       
 
       </div>
 <!--fin profil -->

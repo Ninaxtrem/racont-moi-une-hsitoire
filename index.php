@@ -15,28 +15,31 @@
 
 <body>
     <!-- slide -->
+    <div class="intro">
     <div class="wrap">
+    
         <div id="arrow-left" class="arrow"></div>
+       
         <div id="slider">
             <div class="slide slide1">
                 <div class="slide-content">
-                    <span></span>
+                   
                 </div>
             </div>
             <div class="slide slide2">
                 <div class="slide-content">
-                    <span></span>
+                    
                 </div>
             </div>
             <div class="slide slide3">
                 <div class="slide-content">
-                    <span></span>
+                    
                 </div>
             </div>
         </div>
         <div id="arrow-right" class="arrow"></div>
     </div>
-
+    </div>
     <!-- fin slide -->
     <!--Nav-->
     <div id="navbar">
@@ -85,7 +88,9 @@
 
     <!-- fin Notre but-->
     <!-- parallax -->
-    <img src="assets/img/logo2.jpg" class="img-fluid" alt="Responsive image">
+
+<div class="parallax">
+</div>
 
     <!-- fin parallax -->
     <!-- presentation-->

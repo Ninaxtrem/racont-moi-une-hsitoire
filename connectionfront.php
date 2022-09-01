@@ -42,14 +42,7 @@
       </div>
       <div><input type="submit" class="button"></button></div>
     </form>
-   
-    <div class="check-div">
-      <label class="container">
-        <span class="remember-text"> Se souvenir de moi </span>
-        <input type="checkbox" checked="checked" />
-        <span class="checkmark"></span>
-      </label>
-
+  
     </div>
 
 
