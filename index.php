@@ -17,40 +17,61 @@
     <!-- slide -->
     <div class="intro">
     <div class="wrap">
-    
         <div id="arrow-left" class="arrow"></div>
-       
+      
         <div id="slider">
+        
             <div class="slide slide1">
-                <div class="slide-content">
-                   
-                </div>
+      
+                <div class="slide-content"></div>
             </div>
             <div class="slide slide2">
-                <div class="slide-content">
-                    
-                </div>
+                <div class="slide-content"> </div>
             </div>
             <div class="slide slide3">
-                <div class="slide-content">
-                    
-                </div>
+                <div class="slide-content"></div>
             </div>
+            <div class="slide slide4">
+                <div class="slide-content"></div>
+            </div>
+          
         </div>
         <div id="arrow-right" class="arrow"></div>
     </div>
     </div>
+
+    <div class="photo">
+  <img class="image" src="assets/img/para.jpg" heigth=300px width=100%></img>
+  </div>
+  
     <!-- fin slide -->
     <!--Nav-->
-    <div id="navbar">
-        <a href="./index.php">
+    <div class="sticky-top">
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container justify-content-between">
+        <div class="d-none d-lg-block">
+          <a href="./index.php">
             <img src="assets/img/lg.png" alt="" width="90" height="70">
-        </a>
-        <div class="nav">
-            <a href="inscriptionfront.php">Inscription</a>
-            <a href="connectionfront.php">Connection</a>
+          </a>
         </div>
-    </div>
+        <div class="navbar navbar-expand-lg">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content"
+            aria-controls="navbar-content" aria-expanded="false" aria-label="toggle-navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-content">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./inscriptionfront.php">Inscription</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./connectionfront.php">Connection</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+  </div>
     <!-- fin nav -->
 
 
@@ -58,7 +79,7 @@
     <div class="notrebut">
         <div class="container-fluid">
             <div class="row justify-content-end">
-                <div class="d-flex flex-wrap-reverse">
+
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                         <img src="assets/img/logo2.jpg" class="img-fluid" alt="Responsive image">
                     </div>
@@ -66,7 +87,7 @@
                         <div class="mx-auto  w-75">
                             <p>
                                 <div class="titre">
-                                    <h2 class="text-center"> Notre but</h2>
+                                    <p class="text-center"> Notre but</p>
                                 </div>
                                 Donner aux enfants accès à des histoires lues
                                 Donner aux enfants accès à la voix de leurs proches
@@ -91,17 +112,20 @@
 
 <div class="parallax">
 </div>
+<div class="photo">
+  <img class="image" src="assets/img/feg.jpg" heigth=300px width=100%></img>
+  </div>
 
     <!-- fin parallax -->
     <!-- presentation-->
-    <div class="presentaiton">
-        <div class="container">
+    <div class="presentation">
+        <div class="container-fluid">
             <div class="row justify-content-end">
-                <div class="col align-self-center">
-                    <div class="mx-auto  w-75">
+                    <div class="col align-self-center">
+                        <div class="mx-auto  w-75">
                         <p>
                             <div class="titre">
-                                <h2 class="text-center"> Afterglow</h2>
+                                <p class="text-center"> Afterglow</p>
                             </div>
                             Agence de développeurs web, nous travaillons en collaboration avec des designers afin que
                             que le site soit adapté visuellement aux enfants.
@@ -144,6 +168,10 @@
 
 
 
+    
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
     </script>
@@ -151,6 +179,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    
     <script src="assets/js/java.js"></script>
 </body>
 

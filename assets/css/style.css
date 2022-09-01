@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "alamain1";
+  src: url("../font/alamain1.ttf");
+}
+
 body{
     background-color: #f2f2f2;
     margin: 0;
@@ -31,11 +36,15 @@ body{
   background-image: url("../img/1.jpg");
 }
 .slide2 {
-  background-image: url("../img/2.jpg");
+  background-image: url("../img/6-enfants_transparent.png");
 }
 .slide3 {
   background-image: url("../img/3.jpg");
 }
+.slide4 {
+  background-image: url("../img/parallax.png");
+}
+
 
 .slide-content {
   display: flex;
@@ -61,18 +70,49 @@ body{
 }
 
 #arrow-left {
+  color: black;
   border-width: 30px 40px 30px 0;
-  border-color: transparent #fff transparent transparent;
+  border-color: transparent #060126  transparent transparent;
   left: 0;
   margin-left: 30px;
 }
 
 #arrow-right {
+  color: black;
   border-width: 30px 0 30px 40px;
-  border-color: transparent transparent transparent #fff;
+  border-color: transparent transparent transparent #060126;
   right: 0;
   margin-right: 30px;
 }
+
+@media screen and (min-width:324px) and (max-width:1024px) {
+
+  .slider {
+
+      display: none;
+  }
+}
+
+.photo {
+
+  display: none;
+ 
+}
+
+@media screen and (min-width:324px) and (max-width:1024px) {
+
+  .wrap {
+
+      display: none;
+  }
+
+  .photo {
+      display: flex;
+      height: 300px;
+      width: 100%;
+  }
+}
+
 
 /*FIN CAROUSELLE */
 /*  NAV */
@@ -84,17 +124,17 @@ body{
     background-color: #130C40;
   }
   
-  #navbar a {
+  .nav-link{
     float: left;
     display: block;
-    color: #9196F2;
+    color:#f2f2f2;
     text-align: center;
-    padding: 14px;
-    text-decoration: none;  color: #9196F2;
-    font-family: 'alamain';
-    src: url('../font/alamain1.ttf');
+   
+    text-decoration:none; color: #9196F2;
+    font-family: "alamain1", serif;
     font-weight: normal;
     font-style: normal;
+    font-size: 120%;
   }
   
   .content {
@@ -116,21 +156,22 @@ body{
 
 .titre{
   color: #9196F2;
-  font-family: 'alamain';
-  src: url('../font/alamain1.ttf');
-  font-weight: normal;
+  font-family: "alamain1", serif;
+  font-size: 3.5rem;
   font-style: normal;
 }
 
   .notrebut {
+    font-size: 25px;
     margin-top: 10%;
     margin-bottom: 10%;
 
 }
 
 .presentation {
-    margin-top: 10%;
-    margin-bottom: 10%;
+  font-size: 25px;
+  margin-top: 10%;
+  margin-bottom: 10%;
 
 }
 /* fin contenu */
@@ -139,20 +180,57 @@ body{
   /* Image utilisée titre */
   background-image:url("../img/6-enfants_transparent.png");
 
+
   
   /* Définissez une hauteur */
   height:500px;
   
   /* Créez le parallax effect */
+  background-color: #130C40;
   background-attachment:fixed;
   background-position:center;
   background-repeat:no-repeat;
   background-size:cover;
   }
+  @media screen and (min-width:324px) and (max-width:1024px) {
 
-.h1{
-  color: #9196F2 !important;
-  font-size: 6.5rem !important;
-  text-align: center !important;
+    .parallax {
   
+        display: none;
+    }
+  }
+  
+  .photo {
+  
+    display: none;
+   
+  }
+  
+  @media screen and (min-width:324px) and (max-width:1024px) {
+  
+    .parallax {
+  
+        display: none;
+    }
+  
+    .photo {
+        display: flex;
+        height: 300px;
+        width: 100%;
+    }
+  }
+
+
+.titres{
+ 
+  font-family: "alamain1", serif;
+  color:#060126;
+  position:absolute;
+  top:150px;
+  left:200px;
+   width:600px;
+    height:430px;
+
+     margin-left: 550px;
+     margin-top: 200px;
 }
