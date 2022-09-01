@@ -1,282 +1,295 @@
+@font-face {
+  font-family: "alamain1";
+  src: url("../font/alamain1.ttf");
+}
+
+
 body{
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-  }
-  h3{
-  color: #9196F2;
-  }
-  /*  NAV */
-  .nav{
-    margin-left: 90%;
-  }
-  #navbar {
-     overflow: hidden;
-     background-color: #130C40;
-   }
-   
-   #navbar a {
-     float: left;
-     display: block;
-     color: #9196F2;
-     text-align: center;
-     padding: 14px;
-     text-decoration: none;  color: #9196F2;
-     font-family: 'alamain';
-     src: url('../font/alamain1.ttf');
-     font-weight: normal;
-     font-style: normal;
-   }
-   
-   .content {
-     padding: 16px;
-   }
-  
-   .sticky {
-     position: fixed;
-     top: 0;
-     width: 100%;
-   }
-     .sticky + .content {
-     padding-top: 60px;
-   }
-  
-   /* fin Nav */
-  
-  /** slide**/
-  .slider {
-  width: 80%;
-  margin: 0 auto;
-  }
-  
-  .img-div {
-  width: 300px;
-  height: 300px;
-  margin: 0 15px;
-  }
-  
-  .div1 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div2 {
-  background: url("../img/2.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div3 {
-  background: url("../img/3.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div4 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
-  }
-  .div5 {
-  background: url("../img/2.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div6 {
-  background: url("../img/3.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div7 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div8 {
-  background: url("../img/2.jpg") center no-repeat;
-  background-size: cover;
-  }
-  .div9 {
-  background: url("../img/3.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div10 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div11 {
-  background: url("../img/2.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div12 {
-  background: url("../img/3.jpg") center no-repeat;
-  background-size: cover;
-  }
-  .div13 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div14 {
-  background: url("../img/2.jpeg") center no-repeat;
-  background-size: cover;
-  }
-  
-  @media screen and (min-width:324px) and (max-width:1024px) {
-  
-  .slider {
-  
-      display: none;
-  }
-  }
-  
-  .photo {
-  
-  display: none;
-  
-  }
-  
-  @media screen and (min-width:324px) and (max-width:1024px) {
-  
-  .slider {
-  
-      display: none;
-  }
-  
-  .photo {
-  
-      display: flex;
-      height: 300px;
-      width: 100%;
-  }
-  }
-  
-  .slick-next{
-  color: black;
-  }
-  /** fin slid**/
-  /** slide**/
-  .slider2 {
-  width: 80%;
-  margin: 0 auto;
-  }
-  
-  .img-div {
-  width: 300px;
-  height: 300px;
-  margin: 0 15px;
-  }
-  
-  .div1 {
-  background: url("assets/img/1.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div2 {
-  background: url("../img/2.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div3 {
-  background: url("../img/3.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div4 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
-  }
-  .div5 {
-  background: url("../img/2.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div6 {
-  background: url("../img/3.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div7 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div8 {
-  background: url("../img/2.jpg") center no-repeat;
-  background-size: cover;
-  }
-  .div9 {
-  background: url("../img/3.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div10 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div11 {
-  background: url("../img/2.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div12 {
-  background: url("../img/3.jpg") center no-repeat;
-  background-size: cover;
-  }
-  .div13 {
-  background: url("../img/1.jpg") center no-repeat;
-  background-size: cover;
-  }
-  
-  .div14 {
-  background: url("../img/2.jpeg") center no-repeat;
-  background-size: cover;
-  }
-  
-  @media screen and (min-width:324px) and (max-width:1024px) {
-  
-  .slider {
-  
-      display: none;
-  }
-  }
-  
-  .photo {
-  
-  display: none;
-  
-  }
-  
-  @media screen and (min-width:324px) and (max-width:1024px) {
-  
-  .slider {
-  
-      display: none;
-  }
-  
-  .photo {
-  
-      display: flex;
-      height: 300px;
-      width: 100%;
-  }
-  }
-  
-  .slick-next{
-  color: black;
-  }
-  
-  
-    .lecteur {
-      margin-top: 10%;
-      margin-bottom: 10%;
-      margin-left: 10%;
-      margin-right: 10%;
-  }
-  
-  .arrow {
-  color: black;
-  }
-  
-  
+  background-color:#9196F2;
+  margin: 0;
+  padding: 0;
+}
+h3{
+  margin-top: 10%;
+  font-family: "alamain1", serif;
+color:#130C40
+}
+/*  NAV */
+.nav{
+  margin-left: 90%;
+}
+#navbar {
+   overflow: hidden;
+   background-color: #130C40;
+ }
+ 
+ #navbar a {
+   float: left;
+   display: block;
+   color: #9196F2;
+   text-align: center;
+   padding: 14px;
+   text-decoration: none;  color: #9196F2;
+   font-family: "alamain1", serif;
+   font-weight: normal;
+   font-style: normal;
+ }
+ 
+ .content {
+   padding: 16px;
+ }
+
+ .sticky {
+   position: fixed;
+   top: 0;
+   width: 100%;
+ }
+   .sticky + .content {
+   padding-top: 60px;
+ }
+
+ /* fin Nav */
+
+/** slide**/
+.slider {
+  margin-top: 20%;
+width: 80%;
+margin: 0 auto;
+}
+
+.img-div {
+width: 300px;
+height: 300px;
+margin: 0 15px;
+}
+
+.div1 {
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div2 {
+background: url("../img/2.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div3 {
+background: url("../img/3.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div4 {
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
+}
+.div5 {
+background: url("../img/2.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div6 {
+background: url("../img/3.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div7 {
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div8 {
+background: url("../img/2.jpg") center no-repeat;
+background-size: cover;
+}
+.div9 {
+background: url("../img/3.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div10 {
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div11 {
+background: url("../img/2.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div12 {
+background: url("../img/3.jpg") center no-repeat;
+background-size: cover;
+}
+.div13 {
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div14 {
+background: url("../img/2.jpeg") center no-repeat;
+background-size: cover;
+}
+
+@media screen and (min-width:324px) and (max-width:1024px) {
+
+.slider {
+
+    display: none;
+}
+}
+
+.photo {
+
+display: none;
+
+}
+
+@media screen and (min-width:324px) and (max-width:1024px) {
+
+.slider {
+
+    display: none;
+}
+
+.photo {
+
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+}
+
+.slick-next{
+color: black;
+}
+/** fin slid**/
+/** slide**/
+.slider2 {
+width: 80%;
+margin: 0 auto;
+}
+
+.img-div {
+width: 300px;
+height: 300px;
+margin: 0 15px;
+}
+
+.div1 {
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div2 {
+background: url("../img/2.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div3 {
+background: url("../img/3.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div4 {
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
+}
+.div5 {
+background: url("../img/2.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div6 {
+background: url("../img/3.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div7 {
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div8 {
+background: url("../img/2.jpg") center no-repeat;
+background-size: cover;
+}
+.div9 {
+background: url("../img/3.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div10 {
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div11 {
+background: url("../img/2.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div12 {
+background: url("../img/3.jpg") center no-repeat;
+background-size: cover;
+}
+.div13 {
+background: url("../img/1.jpg") center no-repeat;
+background-size: cover;
+}
+
+.div14 {
+background: url("../img/2.jpeg") center no-repeat;
+background-size: cover;
+}
+
+@media screen and (min-width:324px) and (max-width:1024px) {
+
+.slider {
+
+    display: none;
+}
+}
+
+.photo {
+
+display: none;
+
+}
+
+@media screen and (min-width:324px) and (max-width:1024px) {
+
+.slider {
+
+    display: none;
+}
+
+.photo {
+
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+}
+
+.slick-next{
+color: black;
+}
+
+
+  .lecteur {
+    font-size: 25px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.arrow {
+color: black;
+}
+.slick-next:before{
+  color: #130C40;
+}
+.slick-prev:before{
+  color: #130C40;
+}

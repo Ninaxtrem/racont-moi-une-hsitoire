@@ -11,7 +11,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
 
-    <link rel="stylesheet" href="./assets/css/accueilenfant.css">
+    <link rel="stylesheet" href="./assets/css/acceuilenfant.css">
     <title>Racont moi une Histoire</title>
 </head>
 
@@ -97,6 +97,33 @@
   <div class="photo">
     <img class="image" src="assets/img/preview-removebg-preview.png" heigth=300px width=100%></img>
   </div>
+
+    <!-- enregistreur -->
+    <div class="lecteur">
+    <div class="container-fluid">
+      <div class="row justify-content-end">
+        <div class="d-flex flex-wrap-reverse">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <a href="http://localhost/nina/racont-moi-une-hsitoire/crudenfant.php"><img src="assets/img/micro.png" class="img-fluid" alt="Responsive image"></a>
+          </div>
+          <div class="col align-self-center">
+            <div class="mx-auto  w-75">
+              <p>
+              <h3 class="text-center"> Enregistrement</h3>
+             Pour pouvoir enregistrer son livre il faut, 
+             Clicker sur le microphone a gauche et suivre les etapes indiquer sur la page
+             suivante.
+      
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- fin enregistreur -->
 
 
     <!-- foother-->

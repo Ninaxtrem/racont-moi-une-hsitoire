@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "alamain1";
+  src: url("../font/alamain1.ttf");
+}
+
+
 body{
     background-color:#130C40;
   }

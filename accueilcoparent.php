@@ -19,31 +19,12 @@
 </head>
 
 <body>
-  
-  <!-- slide -->
-  <div class="wrap">
-    <div id="arrow-left" class="arrow"></div>
-    <div id="slider">
-      <div class="slide slide1">
-        <div class="slide-content">
-          <span></span>
-        </div>
-      </div>
-      <div class="slide slide2">
-        <div class="slide-content">
-          <span></span>
-        </div>
-      </div>
-      <div class="slide slide3">
-        <div class="slide-content">
-          <span></span>
-        </div>
-      </div>
-    </div>
-    <div id="arrow-right" class="arrow"></div>
+<!-- photo-->  
+<div class="photo2">
+  <img class="image" src="assets/img/parents-transparent.png" heigth=100vh width=100%></img>
   </div>
+<!-- fin photo -->
 
-  <!-- fin slide -->
   <!--Nav-->
   <div id="navbar">
     <a href="./index.php">
@@ -76,8 +57,10 @@
     <div class="img-div div14"></div>
   </div>
 
+
+
   <div class="photo">
-    <img class="image" src="assets/img/preview-removebg-preview.png" heigth=300px width=100%></img>
+    <img class="image" src="assets/img/feg.jpg" heigth=300px width=100%></img>
   </div>
   <!--fin slide categories-->
   <!--slide categories-->
@@ -100,7 +83,7 @@
   </div>
 
   <div class="photo">
-    <img class="image" src="assets/img/preview-removebg-preview.png" heigth=300px width=100%></img>
+    <img class="image" src="assets/img/logo2.jpg" heigth=300px width=100%></img>
   </div>
 
 
@@ -120,7 +103,7 @@
           <div class="col align-self-center">
             <div class="mx-auto  w-75">
               <p>
-              <h2 class="text-center"> Enregistrement</h2>
+              <h3 class="text-center"> Enregistrement</h3>
              Pour pouvoir enregistrer son livre il faut, 
              Clicker sur le microphone a gauche et suivre les etapes indiquer sur la page
              suivante.

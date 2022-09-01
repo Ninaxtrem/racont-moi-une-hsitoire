@@ -1,4 +1,10 @@
-/* CSS VARIABLES */
+@font-face {
+  font-family: "alamain1";
+  src: url("../font/alamain1.ttf");
+}
+/
+
+* CSS VARIABLES */
 :root {
   --primary: #141414;
   --light: #F3F3F3;

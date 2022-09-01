@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "alamain1";
+    src: url("../font/alamain1.ttf");
+  }
+  
+
 body {
     color: #f2f2f2;
     background-color: #130C40;
@@ -7,8 +13,8 @@ body {
 }
 
 .title{
-    font-family: 'alamain';
-    src: url('../font/alamain1.ttf');
+    color: #9196F2;
+    font-family: "alamain1", serif;
     font-weight: normal;
     font-style: normal;
 }
@@ -41,4 +47,9 @@ body {
     margin-right: 15%;
     margin-top: 9%;
     
+}
+.h1{
+   
+    font-family: "alamain1", serif;
+   
 }

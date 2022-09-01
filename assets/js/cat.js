@@ -37,3 +37,4 @@ $('.slider2').slick({
   autoplay: false,
 
 });
+

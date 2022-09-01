@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "alamain1";
+    src: url("../font/alamain1.ttf");
+  }
+  
+
+
+
 body{
     background-color: #130C40;
     color: #f2f2f2;
@@ -22,8 +30,7 @@ body{
      text-align: center;
      padding: 14px;
      text-decoration: none;  color: #9196F2;
-     font-family: 'alamain';
-     src: url('../font/alamain1.ttf');
+     font-family: "alamain1", serif;
      font-weight: normal;
      font-style: normal;
    }
@@ -288,8 +295,7 @@ h1{
     text-align: center;
     padding: 14px;
     text-decoration: none;  color: #9196F2;
-    font-family: 'alamain';
-    src: url('../font/alamain1.ttf');
+    font-family: "alamain1", serif;
     font-weight: normal;
     font-style: normal;
 }
@@ -299,8 +305,7 @@ h1{
     text-align: center;
     padding: 14px;
     text-decoration: none;  color: #9196F2;
-    font-family: 'alamain';
-    src: url('../font/alamain1.ttf');
+    font-family: "alamain1", serif;
     font-weight: normal;
     font-style: normal; 
 }
@@ -309,8 +314,7 @@ h1{
 
 h2{
     color: #9196F2;
-    font-family: 'alamain';
-    src: url('../font/alamain1.ttf');
+    font-family: "alamain1", serif;
 }
 
 .resumer {
