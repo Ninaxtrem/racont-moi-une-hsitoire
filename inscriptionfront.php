@@ -60,12 +60,7 @@
                 <div><input type="submit" class="button"></input></div>
 
 
-                <div class="check-div">
-                    <label class="container">
-                        <span class="remember-text">Se souvenir de moi </span>
-                        <input type="checkbox" checked="checked" />
-                        <span class="checkmark"></span>
-                    </label>
+             
 
                 </div>
             </form>

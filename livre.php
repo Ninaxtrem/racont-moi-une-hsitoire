@@ -14,8 +14,7 @@
 </head>
 
 <body>
-<?php include("bdd.php")
-?>
+
     <!--Nav-->
     <div id="navbar">
         <a href="./index.php">
@@ -32,8 +31,7 @@
 
     <h1> TITRE
     </h1>
-    <?php
-    echo $nom["nom"];?>
+ 
     <!-- fin titre livre-->
     <!--lecteur-->
     <div class="contain">
