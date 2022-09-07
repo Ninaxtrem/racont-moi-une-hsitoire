@@ -32,6 +32,8 @@ if($countPseudo == 0){
         
         // potentiellement mettre la condition mdp 
         if(!preg_match('@^(?=.{10,}$)(?=(?:.*[A-Z]){1})(?=.*[a-z])(?=(?:.*[0-9]){1}).*@', $mdp2)) {
+
+            
             header("location:inscriptionfront.php?message=error");
         }
         else {
@@ -60,10 +62,7 @@ if($countPseudo == 0){
     }
     else{
     header("location:inscriptionfront.php?message=error2");}
-    // }
-//     else{
-//     header("location:inscriptionfront.php?message=error");
-// }
+
 
 
 ?>

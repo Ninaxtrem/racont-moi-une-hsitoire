@@ -15,33 +15,19 @@
 
 <body>
     <!-- slide -->
+  
+
     <div class="intro">
     <div class="wrap">
-        <div id="arrow-left" class="arrow"></div>
             <div id="slider">
-
-                    <div class="slide slide1">
-                     <div class="slide-content"></div></div>
                      <div class="slide slide2">
                      <div class="slide-content"> </div></div>
-                     <div class="slide slide3">
-                     <div class="slide-content"></div></div>
-                     <div class="slide slide4">
-                     <div class="slide-content"></div></div>
-                       
-    
-                <div id="arrow-right" class="arrow"></div>
             </div>
         <div class="titres"> <p> Raconte moi une histoire </p>
     </div>
 </div>
-    
-    
 
-    <div class="photo">
-  <img class="image" src="assets/img/para.jpg" heigth=300px width=100%></img>
-  </div>
-  
+
     <!-- fin slide -->
     <!--Nav-->
     <div class="sticky-top">

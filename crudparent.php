@@ -6,7 +6,7 @@ require '../class/Autoloader.php';
   $db = new Database();
   
 
-  // Handle Add New User Ajax Request
+  // Gérer la demande d'ajout d'un nouvel utilisateur Ajax
   if (isset($_POST['add'])) {
     $nom = $util->testInput($_POST['nom']);
     $prenom = $util->testInput($_POST['prenom']);
@@ -23,7 +23,7 @@ require '../class/Autoloader.php';
     }
   }
 
-  // Handle Fetch All Users Ajax Request
+  // Gérer la requête Ajax de récupération de tous les utilisateurs
   if (isset($_GET['read'])) {
     $users = $db->read();
     $output = '';
@@ -52,7 +52,7 @@ require '../class/Autoloader.php';
   }
  
 
-  // Handle Edit User Ajax Request
+  // Gérer la demande d'édition d'utilisateur Ajax
   if (isset($_GET['edit'])) {
     $id = $_GET['id'];
 
@@ -60,7 +60,7 @@ require '../class/Autoloader.php';
     echo json_encode($users);
   }
 
-  // Handle Update User Ajax Request
+  // Gérer la demande de mise à jour de l'utilisateur Ajax
   if (isset($_POST['update'])) {
     $id = $util->testInput($_POST['id']);
     $nom = $util->testInput($_POST['nom']);
@@ -78,7 +78,7 @@ require '../class/Autoloader.php';
     }
   }
 
-  // Handle Delete User Ajax Request
+  // Gérer la demande de suppression d'utilisateur Ajax
   if (isset($_GET['delete'])) {
     $id = $_GET['id'];
     if ($db->delete($id)) {

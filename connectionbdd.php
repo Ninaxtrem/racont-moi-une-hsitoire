@@ -24,7 +24,7 @@ if ($count == 1 ){
             $_SESSION['id'] = $resultat['id'];
             $_SESSION['pseudo'] = $resultat['pseudo'];
 
-            header("location:connectionbdd.php");
+            header("location:accueilcoparent.php");
             
         } else{
             

@@ -40,9 +40,6 @@ include "traitement.php";
       $pseudo = $util->testInput($_POST['pseudo']);
       $mail = $util->testInput($_POST['mail']);
   
-     
-  
-  
       if ($db->update($id, $nom, $prenoms, $pseudo, $mail )) {
         echo $util->showMessage('success', 'utilisateur updated successfully!');
       } else {

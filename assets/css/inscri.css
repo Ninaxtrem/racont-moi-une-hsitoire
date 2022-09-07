@@ -12,7 +12,7 @@ body {
     padding: 0%;
 }
 
-.title{
+.titles{
     color: #9196F2;
     font-family: "alamain1", serif;
     font-weight: normal;
@@ -21,8 +21,8 @@ body {
 .form {
     margin-left: auto;
     margin-right: auto;
-    width: 10em;
-    margin-top: 5rem;
+    width: 20em;
+    margin-top: 10rem;
 }
 
 .logo {
@@ -52,4 +52,25 @@ body {
    
     font-family: "alamain1", serif;
    
+}
+
+.small, small{
+    font-size: 0.6em;
+}
+
+.text-muted{
+    color: #f2f2f2 !important;
+}
+
+.btn-outline-info{
+    --bs-btn-color: #f2f2f2;
+    --bs-btn-border-color: #9196F2;
+    --bs-btn-hover-bg: #9196F2;
+    --bs-btn-hover-border-color: #9196F2;
+    --bs-btn-active-bg: #9196F2;
+    --bs-btn-active-border-color: #9196F2;
+    --bs-btn-disabled-color: #9196F2;
+    --bs-btn-disabled-border-color: #9196F2;
+    --bs-btn-hover-color: #f2f2f2;
+    --bs-btn-active-color: #f2f2f2;
 }

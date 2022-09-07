@@ -26,7 +26,6 @@
     }
       if(isset($_GET['message'])){
         if($_GET['message'] == "error2") {
-        // echo"<div class='title'>Pseudo utilisé</div> ";
         echo"<div class='title'>Pseudo utilise</div> ";
         }
       }
