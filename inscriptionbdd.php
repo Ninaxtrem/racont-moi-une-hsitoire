@@ -9,7 +9,6 @@
  
 
 
-
 $mdp = password_hash ($mdp2, PASSWORD_DEFAULT);
   
 //gere le pseudo
@@ -31,7 +30,7 @@ if($countPseudo == 0){
     if($countmail == 0){
         
         // potentiellement mettre la condition mdp 
-        if(!preg_match('@^(?=.{10,}$)(?=(?:.*[A-Z]){1})(?=.*[a-z])(?=(?:.*[0-9]){1}).*@', $mdp2)) {
+        if(!preg_match('@^(?=.{8,}$)(?=(?:.*[A-Z]){1})(?=.*[a-z])(?=(?:.*[0-9]){1}).*@', $mdp2)) {
 
             
             header("location:inscriptionfront.php?message=error");

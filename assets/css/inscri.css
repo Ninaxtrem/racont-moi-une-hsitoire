@@ -48,19 +48,18 @@ body {
     margin-top: 9%;
     
 }
-.h1{
-   
-    font-family: "alamain1", serif;
-   
-}
+
 
 .small, small{
     font-size: 0.6em;
 }
 
-.text-muted{
-    color: #f2f2f2 !important;
+.form-group row {
+    color: #f2f2f2;
+    font-size: .6em !important;
 }
+
+
 
 .btn-outline-info{
     --bs-btn-color: #f2f2f2;

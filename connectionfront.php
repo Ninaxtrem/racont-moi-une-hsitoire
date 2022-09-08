@@ -22,7 +22,7 @@
   <div class="login-sqare">
     <h1 class="title">Connection</h1>
     <br>
-    <form class="sign-form" action="accueilcoparent.php" method="POST">
+    <form class="sign-form" action="connectionbdd.php" method="POST">
       <?php
       if(isset($_GET['message'])) {
         if($_GET['message'] == "success") {
@@ -37,7 +37,7 @@
      
    
                                     
-                                    <div>
+      <div>
         <input class="input" type="text" name="pseudo" placeholder="pseudo" required autocomplete="off" />
       </div>
       <div>
