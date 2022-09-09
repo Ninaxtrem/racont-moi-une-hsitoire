@@ -14,12 +14,12 @@ $('.slider').slick({
   infinite: true,
   slidesToShow: 4,
   slidesToScroll: 3,
-  autoplay: true,
+  autoplay: false,
 autoplaySpeed: 8000,
 });
 
 $(document).ready(function () {
-  $('.slide2').slick({
+  $('.slider2').slick({
       "setting-name": "setting-value"
   });
 });

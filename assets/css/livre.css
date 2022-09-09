@@ -24,15 +24,15 @@ body{
    }
    
    #navbar a {
-     float: left;
-     display: block;
-     color: #9196F2;
-     text-align: center;
-     padding: 14px;
-     text-decoration: none;  color: #9196F2;
-     font-family: "alamain1", serif;
-     font-weight: normal;
-     font-style: normal;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    color: #9196F2;
+    font-family: "alamain1", serif;
+    font-weight: normal;
+    font-style: normal;
    }
    
    .content {
@@ -320,5 +320,6 @@ h2{
 .resumer {
     margin-top: 10%;
     margin-bottom: 10%;
+    margin-left: 30% !important;
 
 }

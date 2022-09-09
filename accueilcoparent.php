@@ -19,14 +19,17 @@
 </head>
 
 <body>
-<!-- photo-->  
-<div class="photo2">
-  <img class="image" src="assets/img/parents-transparent.png" heigth=100vh width=100%></img>
-  </div>
-<!-- fin photo -->
+<?php include("bdd.php")
+?>
+<?php 
+$sql = "SELECT * FROM livre";
+$requete=$bdd->prepare($sql);
+$requete->execute();
+$livre=$requete->fetch(); 
 
-  <!--Nav-->
-  <div id="navbar">
+?>
+    <!--Nav-->
+    <div id="navbar">
     <a href="./index.php">
       <img src="assets/img/lg.png" alt="" width="90" height="70">
     </a>
@@ -36,25 +39,44 @@
   
   </div>
   <!-- fin nav -->
+<!-- photo-->  
+<div class="une">
+  <div class="image">
+    <div class="photos">
+  <img src="assets/img/<?= $livre ["photo"]?>" width= "400px"  height= "400px" >
+    </div>
+</div>
+<p>A la une </p>
+<div class="resumer">
+  <h4> <?php echo $livre["nom"]?></h4>
+  <?php echo $livre["resumer"]?>
+</div>
+</div>
+   
+<!-- fin photo -->
+<!-- select livre -->
+
 
   <!--slide categories-->
-
+  <?php 
+$sql = "SELECT * FROM livre";
+$requete=$bdd->prepare($sql);
+$requete->execute();
+?>
   <h3>Romance</h3>
-  <div class="slider">
-    <div class="img-div div1"></div>
-    <div class="img-div div2"></div>
-    <div class="img-div div3"></div>
-    <div class="img-div div4"></div>
-    <div class="img-div div5"></div>
-    <div class="img-div div6"></div>
-    <div class="img-div div7"></div>
-    <div class="img-div div8"></div>
-    <div class="img-div div9"></div>
-    <div class="img-div div10"></div>
-    <div class="img-div div11"></div>
-    <div class="img-div div12"></div>
-    <div class="img-div div13"></div>
-    <div class="img-div div14"></div>
+  <div class="slider"> 
+    <?php
+   while ($livre = $requete->fetch())
+   { 
+    ?>
+    <div class="livre">
+    <a href="livre.php?id=<?= $livre["id"]?>">
+  <img src="assets/img/<?= $livre ["photo"]?>" width= "200px"  height= "200px" >
+    </a>
+    <?php
+   }
+    ?>
+  </div>
   </div>
 
 

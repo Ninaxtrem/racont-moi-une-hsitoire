@@ -40,8 +40,6 @@
         'nom' => $nom,
         'prenoms' => $prenoms,
         'pseudo' => $pseudo,
-        
-        
         'id' => $id,
       ]);
 

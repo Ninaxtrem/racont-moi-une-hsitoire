@@ -12,7 +12,8 @@ body{
 h3{
   margin-top: 10%;
   font-family: "alamain1", serif;
-color:#130C40
+color:#130C40;
+margin-left: 10%;
 }
 /*  NAV */
 .nav{

@@ -12,11 +12,15 @@ body{
 h3{
   margin-top: 10%;
   font-family: "alamain1", serif;
-color: #9196F2;
+  color: #9196F2;
+  margin-left: 10%;
 }
+
 /*  NAV */
-.nav{
+.nav {
   margin-left: 90%;
+  margin-top: 20px;
+  font-size: 30px;
 }
 #navbar {
    overflow: hidden;
@@ -26,10 +30,10 @@ color: #9196F2;
  #navbar a {
    float: left;
    display: block;
-   color: #9196F2;
    text-align: center;
    padding: 14px;
-   text-decoration: none;  color: #9196F2;
+   text-decoration: none;  
+   color: #9196F2;
    font-family: "alamain1", serif;
    font-weight: normal;
    font-style: normal;
@@ -49,7 +53,52 @@ color: #9196F2;
  }
 
  /* fin Nav */
+.une{
+  background-color:#9196F2;
+  width: 100%;
+  height: 550px;
+}
+.image{
+  width: 50%;
+  height: 50px;
+}
 
+img, svg {
+  margin-top: 8%;
+  margin-left: 5%;
+}
+h4{
+  font-size: 40px;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  color:#130C40 !important;
+  font-size: 50px;
+  font-family: "alamain1", serif;
+   font-weight: normal;
+   font-style: normal;
+   margin-top: 50px;
+   margin-left: 30%;
+}
+
+.resumer{
+  width: 50%;
+  height: 50px;
+  margin-left: 40%;
+  text-align: center;font-size: 25px;
+}
+
+.img-thumbnail{
+background: none;
+border: none;
+  padding: 0.25rem;
+ margin-top: 20px;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
 /** slide**/
 .slider {
   margin-top: 20%;
@@ -63,72 +112,9 @@ height: 300px;
 margin: 0 15px;
 }
 
-.div1 {
-background: url("../img/1.jpg") center no-repeat;
-background-size: cover;
-}
 
-.div2 {
-background: url("../img/2.jpg") center no-repeat;
-background-size: cover;
-}
 
-.div3 {
-background: url("../img/3.jpg") center no-repeat;
-background-size: cover;
-}
 
-.div4 {
-background: url("../img/1.jpg") center no-repeat;
-background-size: cover;
-}
-.div5 {
-background: url("../img/2.jpg") center no-repeat;
-background-size: cover;
-}
-
-.div6 {
-background: url("../img/3.jpg") center no-repeat;
-background-size: cover;
-}
-
-.div7 {
-background: url("../img/1.jpg") center no-repeat;
-background-size: cover;
-}
-
-.div8 {
-background: url("../img/2.jpg") center no-repeat;
-background-size: cover;
-}
-.div9 {
-background: url("../img/3.jpg") center no-repeat;
-background-size: cover;
-}
-
-.div10 {
-background: url("../img/1.jpg") center no-repeat;
-background-size: cover;
-}
-
-.div11 {
-background: url("../img/2.jpg") center no-repeat;
-background-size: cover;
-}
-
-.div12 {
-background: url("../img/3.jpg") center no-repeat;
-background-size: cover;
-}
-.div13 {
-background: url("../img/1.jpg") center no-repeat;
-background-size: cover;
-}
-
-.div14 {
-background: url("../img/2.jpeg") center no-repeat;
-background-size: cover;
-}
 
 @media screen and (min-width:324px) and (max-width:1024px) {
 
@@ -282,6 +268,7 @@ color: black;
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
+  
 }
 
 .arrow {
@@ -293,3 +280,12 @@ color: black;
 .slick-prev:before{
   color: #130C40;
 }
+
+
+
+
+
+
+
+
+

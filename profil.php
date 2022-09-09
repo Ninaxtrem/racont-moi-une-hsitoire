@@ -45,7 +45,7 @@
         
         
         <div class="profile-button">
-          <button>Decconection</button>
+        <button> <a class="button" href="./index.php">Decconection</a></button>
         </div>
        
 

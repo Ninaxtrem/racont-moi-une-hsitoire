@@ -20,7 +20,7 @@
   </div>
   <div class="form">
   <div class="login-sqare">
-    <h1 class="title">Connection</h1>
+    <h1 class="titles">Connection</h1>
     <br>
     <form class="sign-form" action="connectionbdd.php" method="POST">
       <?php
@@ -37,20 +37,19 @@
      
    
                                     
-      <div>
-        <input class="input" type="text" name="pseudo" placeholder="pseudo" required autocomplete="off" />
-      </div>
-      <div>
-        <input class="input" type="password" name="mdp"
-          placeholder="mdp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "
-          required autocomplete="off" />
-      </div>
-      <div><input type="submit" class="button"></button></div>
-   
+     <div class="form-group ">
+     <label for="inputPassword6">Pseudo</label>
+            <input type="text" name="pseudo" class="form-control" placeholder="Pseudo"> 
+    <label for="inputPassword6">Mot de passe</label>
+                    <input type="password" id="inputPassword6"  name="mdp" class="form-control" placeholder="Mot de passe" aria-describedby="passwordHelpInline">
+                    <small id="passwordHelpInline" class="text-muted">
 
+                    </small>
+  </div>
 
-      
-    </form>
+                        <button type="submit" class="btn btn-outline-info">S'inscrire</button>
+
+</form>
   
     </div>
 

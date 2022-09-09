@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 
 
@@ -14,7 +16,8 @@
 </head>
 
 <body>
-
+<?php include("bdd.php")
+?>
     <!--Nav-->
     <div id="navbar">
         <a href="./index.php">
@@ -25,11 +28,19 @@
         </div>
     </div>
     <!-- fin nav -->
+    <?php 
+$sql = "SELECT * FROM livre WHERE id=".$_GET['id']."";
+$requete=$bdd->prepare($sql);
+$requete->execute();
+$livre=$requete->fetch(); 
+ 
 
+?>
     <!-- titre livre-->
    
 
-    <h1> TITRE
+
+    <h1> <?php echo $livre["nom"]?>
     </h1>
  
     <!-- fin titre livre-->
@@ -38,9 +49,10 @@
         <div class="container">
             <div class="music-player">
                 <div class="cover">
-                    <img src="assets/img/logo2.jpg" alt="">
+                <img src="assets/img/<?= $livre ["photo"]?>" width= "300px"  height= "300px" >
                 </div>
                 <div class="titre">
+
                     <h3>Kygo</h3>
                     <div class="oeuvre">
                         <h2>Stole the show</h2>
@@ -56,6 +68,7 @@
             </div>
         </div>
     </div>
+    
     <!--fin lecteur-->
 
     <!-- resumer -->
@@ -66,29 +79,23 @@
                 <div class="d-flex flex-wrap-reverse justify-content-center">
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                         <h2>Resumer</h2>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ratione neque ab cum vero
-                        consectetur nesciunt, aspernatur incidunt facilis consequuntur enim, ea officiis repudiandae
-                        temporibus modi nemo quasi sint veritatis.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ratione neque ab cum vero
-                        consectetur nesciunt, aspernatur incidunt facilis consequuntur enim, ea officiis repudiandae
-                        temporibus modi nemo quasi sint veritatis.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ratione neque ab cum vero
-                        consectetur nesciunt, aspernatur incidunt facilis consequuntur enim, ea officiis repudiandae
-                        temporibus modi nemo quasi sint veritatis.
+                        <h4><?php echo $livre["resumer"]?></h4>
+                       
                     </div>
                     <div class="col align-self-center">
                         <div class="mx-auto  w-75">
                             <p class="text-center">
                                 <div class="titre">
-                                    <h2>Catégorie</h2>
+                                    <h2>Date de parrution</h2>
+                                    <p><?php echo $livre["date_de_parrution"]?></p>
                                 </div>
-                                +7
+        
                             </p>
                             <p class="text-center">
+                                <h2> Nom de lauteur </h2>
                                 <div class="titre">
-                                    <h2> Auteurs</h2>
+                                    <p><?php echo $livre["auteur"]?></p>
                                 </div>
-                                Nom de lauteur
                             </p>
                         </div>
                     </div>
