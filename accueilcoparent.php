@@ -120,7 +120,7 @@ $requete->execute();
       <div class="row justify-content-end">
         <div class="d-flex flex-wrap-reverse">
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <a href="http://localhost/nina/racont-moi-une-hsitoire/crudparent.php"><img src="assets/img/micro.png" class="img-fluid" alt="Responsive image"></a>
+          <a href="http://localhost/nina/racont-moi-une-hsitoire/bibliotheque.php"><img src="assets/img/micro.png" class="img-fluid" alt="Responsive image"></a>
           </div>
           <div class="col align-self-center">
             <div class="mx-auto  w-75">
@@ -144,10 +144,10 @@ $requete->execute();
   <footer class="bg-dark text-center text-white">
     <h2 class="text-center"> Les reseaux sociaux</h2>
     <div class="p-2 bd-highlight"> <a href="https://www.facebook.com/RoseEternails" class="text-white">
-        <h2><i class="fa-brands fa-facebook"></i></h2>
+        
       </a></div>
     <div class="p-2 bd-highlight"><a href="https://api.whatsapp.com/send?phone=33634240457&app=facebook&entry_point=page_cta&fbclid=IwAR3XEy4tffTwDwE7AQD6TSYrn5Dyy2B0QXSlIbuMtgO-knqcNUckE9x4ps0" class="text-white">
-        <h2><i class="fa-brands fa-whatsapp"></i></h2>
+       
       </a></div>
 
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
